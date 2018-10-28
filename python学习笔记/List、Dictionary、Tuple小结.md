@@ -54,7 +54,15 @@ D = {
 - 通过字典进行计数
 `hi[x] = hi.get(x,0) + 1 #对于list x 中每个数进行遍历，产生字典hi，字典的key是list中的每个元素，key对应的健值是list中元素的出现次数`
  - Key不可变，且不可重复，Value可变。一旦一个键值对加入dict后，它对应的key就不能再变了，但是Value是可以变化的。所以List不可以当做Dict的Key，但是可以作为Value
- - 
+ -  两个dictionary可以合并
+ ```
+ d1 = {'mike':12, 'jack':19} 
+ d2 = {'jone':22, 'ivy':17} 
+ dMerge = dict(d1.items() + d2.items()) 
+ print dMerge
+{'mike': 12, 'jack': 19, 'jone': 22, 'ivy': 17}
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTYwNzk5OCwtMTExMDc0NzMwMF19
+eyJoaXN0b3J5IjpbMzAwNTcyNTQ2LC0xMTEwNzQ3MzAwXX0=
 -->
