@@ -31,8 +31,9 @@ cmp 可选参数, 如果指定了该参数会使用该参数的方法进行排�
 reverse -- 排序规则，reverse = True  降序，  reverse = False  升序（默认）。
 
 2.tuple
-不可改变的list
+不可改变的list，用小括号()。没有append、sort、pop等函数
+`(1,2) =('bob','car')` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjc5MDg2OTQsLTExMTA3NDczMDBdfQ
+eyJoaXN0b3J5IjpbLTEzMjE5NTA0MDUsLTExMTA3NDczMDBdfQ
 ==
 -->
