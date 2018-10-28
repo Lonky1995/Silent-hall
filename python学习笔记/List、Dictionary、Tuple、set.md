@@ -64,6 +64,14 @@ D = {
  print dMerge
 {'mike': 12, 'jack': 19, 'jone': 22, 'ivy': 17}
 ````
+- tuple的比较。比较运算符适用于元组和其它序列，Python从每个序列的第一个元素开始比较。如果它们相等，继续比较下一个元素，以此类推，直到找到不同的元素。找到不同元素之后，随后的元素就不再考虑了 （即便它们真得很大）
+```
+>>> (0, 1, 2) < (0, 3, 4) 
+True 
+(0, 1, 2000000) < (0, 3, 4) 
+True
+```
+
 4. set
 set就像是把Dict中的key抽出来了一样，类似于一个List，但是内容又不能重复，通过调用set()方法创建：
 `s = set(['A', 'B', 'C'])`
@@ -116,6 +124,6 @@ File "<stdin>", line 1, in <module> KeyError: 4
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MjQ3NzY0Miw2MDkxNzQ0NTUsLTgxMj
-czOTA0NV19
+eyJoaXN0b3J5IjpbLTc0OTk1MDMzNCwtNTcyNDc3NjQyLDYwOT
+E3NDQ1NSwtODEyNzM5MDQ1XX0=
 -->
