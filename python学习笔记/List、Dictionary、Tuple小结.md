@@ -1,6 +1,9 @@
  1. List 
-     清
+     集合。用中括号 []表示。
+     定义List
+ 
 
+    List = ['Bob',1,2]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTA2NDM4NF19
+eyJoaXN0b3J5IjpbLTMwODc1NDkyNV19
 -->
