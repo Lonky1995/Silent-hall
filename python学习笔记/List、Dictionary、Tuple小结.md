@@ -36,8 +36,13 @@ reverse -- 排序规则，reverse = True  降序，  reverse = False  升序（�
 
 3.dictionary
 类似于数据库，是key-value对，用大括号{}定义
-·
+```
+D = {
+'Alice'  :1
+'bob' : 2
+}
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDUzNjA2ODMsLTExMTA3NDczMDBdfQ
-==
+eyJoaXN0b3J5IjpbMTY3ODIwMTY5LC0xMTEwNzQ3MzAwXX0=
 -->
