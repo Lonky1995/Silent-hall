@@ -72,6 +72,36 @@ True
 print 'D' in s
 False
 ```
+- set对于元素的大小写是敏感的。
+
+- 也通过for来遍历：
+
+```
+s = set([('Adam', 95), ('Lisa', 85), ('Bart', 59)]) #tuple
+for x in s:
+	print (x[0],':',x[1] 
+Lisa : 85 Adam : 95 Bart : 59
+
+通过add和remove来添加、删除元素（保持不重复），添加元素时，用set的add()方法：
+
+>>> s = set([1, 2, 3]) >>> s.add(4) >>> print s
+set([1, 2, 3, 4])
+
+如果添加的元素已经存在于set中，add()不会报错，但是不会加进去了：
+
+>>> s = set([1, 2, 3]) >>> s.add(3) >>> print s
+set([1, 2, 3])
+
+删除set中的元素时，用set的remove()方法：
+
+>>> s = set([1, 2, 3, 4]) >>> s.remove(4) >>> print s
+set([1, 2, 3])
+
+如果删除的元素不存在set中，remove()会报错：
+
+>>> s = set([1, 2, 3]) >>> s.remove(4)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module> KeyError: 4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyMjk3MDc3XX0=
+eyJoaXN0b3J5IjpbMTY3Nzk0Mjk2Ml19
 -->
