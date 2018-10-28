@@ -10,8 +10,10 @@
 `L.append = ('jack')`
 `print (L)`
 `L = [1,2,'jack']`
-- 
+`L.insert = (1,'hel')`
+`print(L)`
+`L = [1,'hel',2,'jack']`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNjI5Mjk3Ml19
+eyJoaXN0b3J5IjpbODUxMjYyMzgyXX0=
 -->
