@@ -52,7 +52,7 @@ D = {
 `D['fuck'] = 66`
 - 通过查找key访问内容
 - 通过字典进行计数
-`hi[x] = hi.get(x,0) + 1 #对于字典hi，进行遍历，`
+`hi[x] = hi.get(x,0) + 1 #对于list x 中每个数进行遍历，产生字典hi，字典的key是list中的每个数，key对应的健值shi`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzOTUzNjM3NiwtMTExMDc0NzMwMF19
+eyJoaXN0b3J5IjpbMTE5MTgxOTUzMCwtMTExMDc0NzMwMF19
 -->
