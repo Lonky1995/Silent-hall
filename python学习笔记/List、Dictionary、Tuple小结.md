@@ -52,7 +52,9 @@ D = {
 `D['fuck'] = 66`
 - 通过查找key访问内容
 - 通过字典进行计数
-`hi[x] = hi.get(x,0) + 1 #对于list x 中每个数进行遍历，产生字典hi，字典的key是list中的每个数，key对应的健值shi`
+`hi[x] = hi.get(x,0) + 1 #对于list x 中每个数进行遍历，产生字典hi，字典的key是list中的每个元素，key对应的健值是list中元素的出现次数`
+ - Key不可变，且不可重复，Value可变。一旦一个键值对加入dict后，它对应的key就不能再变了，但是Value是可以变化的。所以List不可以当做Dict的Key，但是可以作为Value
+ - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTgxOTUzMCwtMTExMDc0NzMwMF19
+eyJoaXN0b3J5IjpbLTg5MTYwNzk5OCwtMTExMDc0NzMwMF19
 -->
