@@ -79,15 +79,19 @@ False
 ```
 s = set([('Adam', 95), ('Lisa', 85), ('Bart', 59)]) #tuple
 for x in s:
-	print (x[0],':',x[1] 
-Lisa : 85 Adam : 95 Bart : 59
-
-通过add和remove来添加、删除元素（保持不重复），添加元素时，用set的add()方法：
-
->>> s = set([1, 2, 3]) >>> s.add(4) >>> print s
+	print (x[0],':',x[1]) 
+Lisa : 85
+Adam : 95
+Bart : 59
+```
+- 通过add和remove来添加、删除元素（保持不重复），添加元素时，用set的add()方法：
+```
+ s = set([1, 2, 3]) 
+ s.add(4) 
+ print s
 set([1, 2, 3, 4])
-
-如果添加的元素已经存在于set中，add()不会报错，但是不会加进去了：
+```
+- 如果添加的元素已经存在于set中，add()不会报错，但是不会加进去了：
 
 >>> s = set([1, 2, 3]) >>> s.add(3) >>> print s
 set([1, 2, 3])
@@ -103,5 +107,5 @@ set([1, 2, 3])
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module> KeyError: 4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3Nzk0Mjk2Ml19
+eyJoaXN0b3J5IjpbMTg0MDg2NjQ0N119
 -->
