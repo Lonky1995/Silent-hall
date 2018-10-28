@@ -33,7 +33,11 @@ reverse -- 排序规则，reverse = True  降序，  reverse = False  升序（�
 2.tuple
 不可改变的list，用小括号()。没有append、sort、pop等函数
 `(1,2) =('bob','car')` 
+
+3.dictionary
+类似于数据库，是key-value对，用大括号{}定义
+·
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjE5NTA0MDUsLTExMTA3NDczMDBdfQ
+eyJoaXN0b3J5IjpbLTEwMDUzNjA2ODMsLTExMTA3NDczMDBdfQ
 ==
 -->
