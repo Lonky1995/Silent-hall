@@ -92,20 +92,27 @@ Bart : 59
 set([1, 2, 3, 4])
 ```
 - 如果添加的元素已经存在于set中，add()不会报错，但是不会加进去了：
-
->>> s = set([1, 2, 3]) >>> s.add(3) >>> print s
+```
+ s = set([1, 2, 3])
+ s.add(3) 
+ print s
 set([1, 2, 3])
-
-删除set中的元素时，用set的remove()方法：
-
->>> s = set([1, 2, 3, 4]) >>> s.remove(4) >>> print s
+```
+- 删除set中的元素时，用set的remove()方法：
+```
+s = set([1, 2, 3, 4]) 
+s.remove(4) 
+print s
 set([1, 2, 3])
-
-如果删除的元素不存在set中，remove()会报错：
-
->>> s = set([1, 2, 3]) >>> s.remove(4)
+```
+- 如果删除的元素不存在set中，remove()会报错：
+```
+s = set([1, 2, 3]) 
+s.remove(4)
 Traceback (most recent call last):
-  File "<stdin>", line 1, in <module> KeyError: 4
+File "<stdin>", line 1, in <module> KeyError: 4
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MDg2NjQ0N119
+eyJoaXN0b3J5IjpbLTgxMjczOTA0NV19
 -->
