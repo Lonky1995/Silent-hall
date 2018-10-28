@@ -71,7 +71,14 @@ True
 (0, 1, 2000000) < (0, 3, 4) 
 True
 ```
-
+- tuple的赋值
+tple可以出现在赋值语句的左侧。当左侧是一个序列时，一次可以为多个变量赋值。
+```
+ m = [ 'have', 'fun' ]
+ x, y = m 
+ x 'have' 
+ y 'fun' >>>
+```
 4. set
 set就像是把Dict中的key抽出来了一样，类似于一个List，但是内容又不能重复，通过调用set()方法创建：
 `s = set(['A', 'B', 'C'])`
@@ -124,6 +131,6 @@ File "<stdin>", line 1, in <module> KeyError: 4
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTk1MDMzNCwtNTcyNDc3NjQyLDYwOT
-E3NDQ1NSwtODEyNzM5MDQ1XX0=
+eyJoaXN0b3J5IjpbMTk3NDgzMTU0MywtNzQ5OTUwMzM0LC01Nz
+I0Nzc2NDIsNjA5MTc0NDU1LC04MTI3MzkwNDVdfQ==
 -->
