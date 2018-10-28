@@ -30,9 +30,13 @@ cmp 可选参数, 如果指定了该参数会使用该参数的方法进行排�
  key -- 主要是用来进行比较的元素，只有一个参数，具体的函数的参数就是取自于可迭代对象中，指定可迭代对象中的一个元素来进行排序。
 reverse -- 排序规则，reverse = True  降序，  reverse = False  升序（默认）。
 
+- 可以用len计算长度
+
 2.tuple
 不可改变的list，用小括号()。没有append、sort、pop等函数
 `(1,2) =('bob','car')` 
+
+ - 可以用len计算长度
 
 3.dictionary
 类似于数据库，是key-value对，用大括号{}定义
@@ -42,7 +46,8 @@ D = {
 'bob' : 2
 }
 ```
-
+- 直接通过健值对添加
+`D
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3ODIwMTY5LC0xMTEwNzQ3MzAwXX0=
+eyJoaXN0b3J5IjpbLTMxMTk4NzA0OSwtMTExMDc0NzMwMF19
 -->
