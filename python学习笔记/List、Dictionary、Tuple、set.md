@@ -39,7 +39,7 @@ reverse -- 排序规则，reverse = True  降序，  reverse = False  升序（�
 
  - 可以用len计算长度
  - 用下标（位置）访问内容
- - 穿件单元素元祖，需要在末尾加逗号
+ - 穿件单元素元祖，需要在末尾加逗号。如果没有逗号python会作为字符串处理
  `t1 = ('a',)`
  
 3.dictionary
@@ -116,5 +116,6 @@ File "<stdin>", line 1, in <module> KeyError: 4
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5MTc0NDU1LC04MTI3MzkwNDVdfQ==
+eyJoaXN0b3J5IjpbLTU3MjQ3NzY0Miw2MDkxNzQ0NTUsLTgxMj
+czOTA0NV19
 -->
