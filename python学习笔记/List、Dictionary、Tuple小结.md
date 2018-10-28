@@ -51,8 +51,8 @@ D = {
 - 直接通过健值对添加
 `D['fuck'] = 66`
 - 通过查找key访问内容
--
+- 通过字典进行计数
+`hi[x] = hi.get(x,0) + 1 #对于字典hi，进行遍历，`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDk4ODI4MTIsLTExMTA3NDczMDBdfQ
-==
+eyJoaXN0b3J5IjpbMjEzOTUzNjM3NiwtMTExMDc0NzMwMF19
 -->
