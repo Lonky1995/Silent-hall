@@ -13,7 +13,9 @@
 `L.insert = (1,'hel')`
 `print(L)`
 `L = [1,'hel',2,'jack']`
+-List 可以用过pop来进行删除操作
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUxMjYyMzgyXX0=
+eyJoaXN0b3J5IjpbLTExOTY4NDEwMTZdfQ==
 -->
