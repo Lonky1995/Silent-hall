@@ -1,4 +1,4 @@
- 1. List
+ **1. List**
      集合。用中括号 []表示。
  - 定义List
 `list = ['BOB',2,3] list = []`item
@@ -33,7 +33,7 @@ reverse -- 排序规则，reverse = True  降序，  reverse = False  升序（�
 - 可以用len计算长度
 - 用下标访问内容
 
-2.tuple
+**2.tuple**
 不可改变的list，用小括号()。没有append、sort、pop等函数
 `(1,2) =('bob','car')` 
 
@@ -42,7 +42,7 @@ reverse -- 排序规则，reverse = True  降序，  reverse = False  升序（�
  - 穿件单元素元祖，需要在末尾加逗号。如果没有逗号python会作为字符串处理
  `t1 = ('a',)`
  
-3.dictionary
+**3.dictionary**
 类似于数据库，是key-value对，用大括号{}定义
 ```
 D = {
@@ -79,7 +79,7 @@ tple可以出现在赋值语句的左侧。当左侧是一个序列时，一次�
  x 'have' 
  y 'fun' >>>
 ```
-4. set
+**4. set**
 set就像是把Dict中的key抽出来了一样，类似于一个List，但是内容又不能重复，通过调用set()方法创建：
 `s = set(['A', 'B', 'C'])`
 对于访问一个set的意义就仅仅在于查看某个元素是否在这个集合里面：
@@ -131,6 +131,7 @@ File "<stdin>", line 1, in <module> KeyError: 4
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NDgzMTU0MywtNzQ5OTUwMzM0LC01Nz
-I0Nzc2NDIsNjA5MTc0NDU1LC04MTI3MzkwNDVdfQ==
+eyJoaXN0b3J5IjpbLTkwNjA2OTA2NSwxOTc0ODMxNTQzLC03ND
+k5NTAzMzQsLTU3MjQ3NzY0Miw2MDkxNzQ0NTUsLTgxMjczOTA0
+NV19
 -->
